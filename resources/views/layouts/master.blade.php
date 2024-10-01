@@ -46,8 +46,8 @@
             <div class="col-lg-7 px-5 text-start">
                 <div class="h-100 d-inline-flex align-items-center me-4">
                     <small class="fa fa-phone-alt me-2"></small>
-                    <a href="https://wa.me/+6281332070381" style="color: white;" target="_blank">
-                        <small>+62 813-3207-0381</small></a>
+                    <a href="https://wa.me/+6283835191152" style="color: white;" target="_blank">
+                        <small>+62-838-3519-1152</small></a>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center me-4">
                     <small class="far fa-envelope-open me-2"></small>
@@ -130,10 +130,10 @@
                     <p style="color: white;">
                         <i class="fa fa-map-marker-alt me-3"></i>Janten Tengah, Janteh, Kec. Kwanyar, Kabupaten Bangkalan, Jawa Timur 69163
                     </p>
-                    <p><a href="https://wa.me/+6281332070381" style="color: white;" target="_blank"><i
-                                class="fa fa-phone-alt me-3"></i>+62-813-3207-0381</p></a>
-                    <p><a href="https://wa.me/+6281332070381" style="color: white;" target="_blank"><i
-                                class="fa fa-phone-alt me-3"></i>+62-813-3207-0381</p></a>
+                    <p><a href="https://wa.me/+6282229638739" style="color: white;" target="_blank"><i
+                                class="fa fa-phone-alt me-3"></i>+62-822-2963-8739</p></a>
+                    <p><a href="https://wa.me/+6283835191152" style="color: white;" target="_blank"><i
+                                class="fa fa-phone-alt me-3"></i>+62-838-3519-1152</p></a>
                     <p><a href="mailto::yayasanbinacendekiaislami@gmail.com" style="color: white;" target="_blank"><i
                                 class="fa fa-envelope me-3"></i>yayasanbinacendekiaislami@gmail.com</p></a>
                 </div>
