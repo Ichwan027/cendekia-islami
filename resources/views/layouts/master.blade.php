@@ -51,8 +51,8 @@
                 </div>
                 <div class="h-100 d-inline-flex align-items-center me-4">
                     <small class="far fa-envelope-open me-2"></small>
-                    <a href="mailto::cendekia.islami@gmail.com" style="color: white;" target="_blank">
-                        <small>cendekia.islami@gmail.com</small></a>
+                    <a href="mailto::yayasanbinacendekiaislami@gmail.com" style="color: white;" target="_blank">
+                        <small>yayasanbinacendekiaislami@gmail.com</small></a>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center me-4">
                     <small class="far fa-clock me-2"></small>
@@ -101,7 +101,7 @@
               <a href="404.html" class="dropdown-item">404 Page</a>
             </div>
           </div> --}}
-                <a href="contact.html" class="nav-item nav-link">Kontak</a>
+                <a href="{{ route('kontak') }}" class="nav-item nav-link">Kontak</a>
             </div>
         </div>
         <a href="" class="btn btn-primary px-3 d-none d-lg-block">Artikel</a>
@@ -114,10 +114,10 @@
     <div class="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h1 class="text-white mb-4">
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-4">
                         <img class="img-fluid me-3" src="img/footer.png" alt="" />Cendekia Islami
-                    </h1>
+                    </h4>
                     <div class="d-flex pt-2">
                         <a class="btn btn-square me-1" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-square me-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -125,25 +125,25 @@
                         <a class="btn btn-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <h5 class="text-light mb-4">Alamat</h5>
-                    <p>
-                        <i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA
+                    <p style="color: white;">
+                        <i class="fa fa-map-marker-alt me-3"></i>Janten Tengah, Janteh, Kec. Kwanyar, Kabupaten Bangkalan, Jawa Timur 69163
                     </p>
                     <p><a href="https://wa.me/+6281332070381" style="color: white;" target="_blank"><i
                                 class="fa fa-phone-alt me-3"></i>+62-813-3207-0381</p></a>
                     <p><a href="https://wa.me/+6281332070381" style="color: white;" target="_blank"><i
                                 class="fa fa-phone-alt me-3"></i>+62-813-3207-0381</p></a>
-                    <p><a href="mailto::cendikia.islami@gmail.com" style="color: white;" target="_blank"><i
-                                class="fa fa-envelope me-3"></i>cendikia.islami@gmail.com</p></a>
+                    <p><a href="mailto::yayasanbinacendekiaislami@gmail.com" style="color: white;" target="_blank"><i
+                                class="fa fa-envelope me-3"></i>yayasanbinacendekiaislami@gmail.com</p></a>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6" style="color: white;">
                     <h5 class="text-light mb-4">Quick Links</h5>
-                    <a class="btn btn-link" href="{{ Route ('ttg')}}">Tentang Kami</a>
-                    <a class="btn btn-link" href="">Kontak</a>
-                    <a class="btn btn-link" href="">Fasilitas</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
+                    <a class="btn btn-link text-light" href="{{ Route ('ttg')}}">Tentang Kami</a>
+                    <a class="btn btn-link text-light" href="">Kontak</a>
+                    <a class="btn btn-link text-light" href="">Fasilitas</a>
+                    <a class="btn btn-link text-light" href="">Terms & Condition</a>
+                    <a class="btn btn-link text-light" href="">Support</a>
                 </div>
                 
             </div>
@@ -152,13 +152,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a href="#">Your Site Name</a>, All Right Reserved.
+                        &copy; IT Support Cendekia Islami, All Right Reserved.
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        Designed By <a href="https://htmlcodex.com">HTML Codex</a>
-                        <br />Distributed By:
-                        <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+                        Designed By IT Support Cendekia Islami
                     </div>
                 </div>
             </div>
