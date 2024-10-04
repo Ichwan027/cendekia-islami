@@ -35,7 +35,7 @@
                     Clita erat ipsum et lorem et sit, sed stet lorem sit clita
                     duo justo magna dolore erat amet
                   </p> --}}
-                                    <a href="{{ Route('ttg') }}" class="btn btn-primary py-3 px-5">Selengkapnya</a>
+                                    {{-- <a href="{{ Route('ttg') }}" class="btn btn-primary py-3 px-5">Selengkapnya</a> --}}
                                 </div>
                             </div>
                         </div>
@@ -142,6 +142,62 @@
         </div>
     </div>
     <!-- Fasilitas End -->
+
+    <!-- Galeri Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto" style="max-width: 500px">
+                <h1 class="display-6 mb-5">Galeri</h1>
+            </div>
+            <div class="row g-4">
+                <!-- Batas -->
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item rounded">
+                        <a href="img/about.jpg" target="_blank">
+                            <img class="img-fluid" src="img/about.jpg" alt="" />
+                        </a>
+                        <div class="text-center p-4">
+                            <h5>Dr. KH. Nur Fauzi Palestin, S.Hum., M.Pd.</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Batas -->
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item rounded">
+                        <a href="img/about.jpg" target="_blank">
+                            <img class="img-fluid" src="img/about.jpg" alt="" />
+                        </a>
+                        <div class="text-center p-4">
+                            <h5>Dr. Ahmad Zainuddin</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item rounded">
+                        <a href="img/about.jpg" target="_blank">
+                            <img class="img-fluid" src="img/about.jpg" alt="" />
+                        </a>
+                        <div class="text-center p-4">
+                            <h5>Ustadzah Fatimah</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item rounded">
+                        <a href="img/about.jpg" target="_blank">
+                            <img class="img-fluid" src="img/about.jpg" alt="" />
+                        </a>
+                        <div class="text-center p-4">
+                            <h5>Dr. H. Moh. Nur Kholis, M.Pd.</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Galeri End -->
 
     <!-- Features Start -->
     <div class="container-xxl py-5">

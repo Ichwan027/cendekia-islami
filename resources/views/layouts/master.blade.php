@@ -30,6 +30,7 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
+    <link href="css/artikel.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -75,7 +76,7 @@
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5">
         <a href="index.html" class="navbar-brand d-flex align-items-center">
             <h1 class="m-0">
-                <img class="img-fluid me-3" src="img/logoo.jpg" alt="" />Cendekia Islami
+                <img class="img-fluid me-3" src="img/logoo.jpg" alt="" />Bilingual Cendekia Islami
             </h1>
         </a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -85,6 +86,7 @@
             <div class="navbar-nav mx-auto bg-light rounded pe-4 py-3 py-lg-0">
                 <a href="/" class="nav-item nav-link active">Beranda</a>
                 <a href="{{ route('ttg') }}" class="nav-item nav-link">Tentang Kami</a>
+                <a href="{{ route('galeri') }}" class="nav-item nav-link">Galeri</a>
                 <a href="{{ route('profil') }}" class="nav-item nav-link">Profil</a>
                 {{-- <div class="nav-item dropdown">
             <a
@@ -102,9 +104,10 @@
             </div>
           </div> --}}
                 <a href="{{ route('kontak') }}" class="nav-item nav-link">Kontak</a>
+                <a href="{{ route('blog') }}" class="nav-item nav-link">Artikel</a>
             </div>
         </div>
-        <a href="" class="btn btn-primary px-3 d-none d-lg-block">Artikel</a>
+        <a href="" class="btn btn-primary px-3 d-none d-xl-block">Daftar</a>
     </nav>
     <!-- Navbar End -->
 
@@ -138,12 +141,12 @@
                                 class="fa fa-envelope me-3"></i>yayasanbinacendekiaislami@gmail.com</p></a>
                 </div>
                 <div class="col-lg-3 col-md-6" style="color: white;">
-                    <h5 class="text-light mb-4">Quick Links</h5>
+                    <h5 class="text-light mb-4">Tautan Cepat</h5>
                     <a class="btn btn-link text-light" href="{{ Route ('ttg')}}">Tentang Kami</a>
+                    <a class="btn btn-link text-light" href="">Profil</a>
                     <a class="btn btn-link text-light" href="">Kontak</a>
-                    <a class="btn btn-link text-light" href="">Fasilitas</a>
-                    <a class="btn btn-link text-light" href="">Terms & Condition</a>
-                    <a class="btn btn-link text-light" href="">Support</a>
+                    <a class="btn btn-link text-light" href="">Artikel</a>
+                    <a class="btn btn-link text-light" href="">Daftar</a>
                 </div>
                 
             </div>

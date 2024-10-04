@@ -27,10 +27,24 @@ class LandingController extends Controller
         return view('landing.profil', ['title' => $title]);
     }
     
+    public function galeri()
+    {
+        $title = 'PP Cendekia Islami | Galeri';
+        
+        return view('landing.galeri', ['title' => $title]);
+    }
+    
     public function kontak()
     {
         $title = 'PP Cendekia Islami | Kontak';
         
         return view('landing.kontak', ['title' => $title]);
+    }
+    
+    public function blog()
+    {
+        $title = 'PP Cendekia Islami | Artikel';
+        
+        return view('landing.blog', ['title' => $title]);
     }
 }
