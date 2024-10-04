@@ -86,13 +86,6 @@
       clear: both;
     }
 
-    /* Footer */
-    .footer {
-      padding: 20px;
-      text-align: center;
-      background: #ddd;
-      margin-top: 20px;
-    }
 
     /* Responsive layout */
     @media screen and (max-width: 800px) {
